@@ -4,7 +4,7 @@
 
 **Date Received:** 2026-02-28  
 **Source:** Public phishing sample dataset (autinerd/phishing-mail-examples)  
-**Classification:** 🔴 PHISHING
+**Classification:** PHISHING
 
 ---
 
@@ -30,7 +30,7 @@ X-Mailer: MailSender Pro 3.2
 ### Email Body
 
 ```
-Subject: 🚨 Urgent: Your PayPal Account Has Been Suspended
+Subject: Urgent: Your PayPal Account Has Been Suspended
 
 Dear PayPal User,
 
@@ -40,7 +40,7 @@ details within 24 hours.
 
 Click the button below to verify your identity now:
 
-👉 Verify My Account: http://secure-paypa1-verify[.]com/login
+Verify My Account: http://secure-paypa1-verify[.]com/login
 
 If you do not verify your account, it will be permanently closed.
 
@@ -55,11 +55,11 @@ support@paypal.com
 
 | Header Field | Value | Red Flag? |
 |---|---|:---:|
-| From | <security@paypa1-accounts.com> | ✅ Spoofed domain |
-| Reply-To | <no-reply@paypa1-accounts-recover.net> | ✅ Different from From |
-| Return-Path | <security-noreply@paypa1-accounts.com> | ✅ Mismatched |
-| Originating IP | 192.168.47.221 | ✅ Private/internal IP |
-| X-Mailer | MailSender Pro 3.2 | ✅ Bulk mailer tool |
+| From | <security@paypa1-accounts.com> | Spoofed domain |
+| Reply-To | <no-reply@paypa1-accounts-recover.net> | Different from From |
+| Return-Path | <security-noreply@paypa1-accounts.com> | Mismatched |
+| Originating IP | 192.168.47.221 | Private/internal IP |
+| X-Mailer | MailSender Pro 3.2 | Bulk mailer tool |
 
 ---
 
@@ -75,7 +75,7 @@ support@paypal.com
 | 6 | No DKIM/SPF signature | Authentication Fail | Legitimate PayPal emails are digitally signed |
 | 7 | Encoded Subject | Obfuscation | Base64 encoded to bypass spam filters |
 
-**Risk Classification: 🔴 PHISHING — HIGH RISK**
+**Risk Classification: PHISHING — HIGH RISK**
 
 ---
 
@@ -83,7 +83,7 @@ support@paypal.com
 
 **Date Received:** 2026-03-01  
 **Source:** Business Email Compromise (BEC) simulation sample  
-**Classification:** 🔴 PHISHING / Business Email Compromise (BEC)
+**Classification:** PHISHING / Business Email Compromise (BEC)
 
 ---
 
@@ -140,7 +140,7 @@ CEO, TargetCorp Inc.
 | 5 | Offshore bank (Cayman Islands) | Financial Red Flag | Wire transfers to offshore accounts are irreversible |
 | 6 | Impersonates CEO | Authority Abuse | High authority figure used to bypass approval processes |
 
-**Risk Classification: 🔴 PHISHING — CRITICAL (BEC)**
+**Risk Classification: PHISHING — CRITICAL (BEC)**
 
 ---
 
@@ -148,7 +148,7 @@ CEO, TargetCorp Inc.
 
 **Date Received:** 2026-03-02  
 **Source:** Spear phishing simulation sample  
-**Classification:** 🟡 SUSPICIOUS
+**Classification:** SUSPICIOUS
 
 ---
 
@@ -164,7 +164,7 @@ using passwords that no longer meet our updated security policy.
 
 Please update your password immediately using the link below:
 
-👉 https://company-it-portal-reset.web.app/login
+https://company-it-portal-reset.web.app/login
 
 Accounts not updated by Friday will be locked.
 
@@ -183,4 +183,4 @@ internal-it@company-it-helpdesk.co
 | 3 | "Accounts will be locked" | Urgency/Fear |
 | 4 | "Hi Team" — no name | Generic greeting |
 
-**Risk Classification: 🟡 SUSPICIOUS — Verify with IT Department before clicking**
+**Risk Classification: SUSPICIOUS — Verify with IT Department before clicking**

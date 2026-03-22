@@ -1,12 +1,12 @@
 # Phishing Email Detection & Awareness Report
 
-| Field | Details |
-|---|---|
-| **Prepared by** | Patrick Leon |
-| **Role** | Cyber Security Intern — Future Interns Program |
-| **Date** | March 5, 2026 |
-| **Report Type** | Phishing Email Detection & Security Awareness |
-| **Classification** | Internal / Training Use |
+| Field                    | Details                                         |
+| ------------------------ | ----------------------------------------------- |
+| **Prepared by**    | GANDONOU Koffi Patrick-Leon                    |
+| **Role**           | Cyber Security Intern — Future Interns Program |
+| **Date**           | March 22, 2026                                  |
+| **Report Type**    | Phishing Email Detection & Security Awareness   |
+| **Classification** | Internal / Training Use                         |
 
 ---
 
@@ -18,7 +18,7 @@
 4. [Risk Classification Summary](#4-risk-classification-summary)
 5. [How Phishing Attacks Work](#5-how-phishing-attacks-work)
 6. [Prevention Guidelines for Users](#6-prevention-guidelines-for-users)
-7. [Do's and Don'ts for Employees](#7-dos-and-donts-for-employees)
+7. [Do&#39;s and Don&#39;ts for Employees](#7-dos-and-donts-for-employees)
 8. [Conclusion](#8-conclusion)
 
 ---
@@ -69,12 +69,12 @@ Unlike most attacks, phishing does not require breaking through firewalls or exp
 
 ### Sample 1 — PayPal Account Suspended
 
-| Field | Details |
-|---|---|
-| **Type** | Classic Credential Phishing |
-| **Impersonating** | PayPal |
-| **Attack Goal** | Steal PayPal login credentials |
-| **Classification** | 🔴 PHISHING — HIGH RISK |
+| Field                    | Details                        |
+| ------------------------ | ------------------------------ |
+| **Type**           | Classic Credential Phishing    |
+| **Impersonating**  | PayPal                         |
+| **Attack Goal**    | Steal PayPal login credentials |
+| **Classification** | 🔴 PHISHING — HIGH RISK       |
 
 **Sender:** `security@paypa1-accounts.com` *(Real PayPal: <security@paypal.com>)*
 
@@ -83,49 +83,49 @@ The attacker created a fake domain `paypa1-accounts.com` that looks almost ident
 
 **Key Red Flags Identified:**
 
-| # | Red Flag | What to Look For |
-|---|---|---|
-| 1 | Spoofed sender domain | `paypa1-accounts.com` → "1" instead of "l" |
-| 2 | Urgency | "24 hours... permanent suspension" |
-| 3 | Generic greeting | "Dear PayPal User" — not your actual name |
-| 4 | Suspicious link URL | Hover over the link — does the domain match? |
-| 5 | Reply-To mismatch | Replies go to a different attacker-controlled domain |
-| 6 | No digital signature | Legitimate PayPal emails are cryptographically signed (DKIM) |
+| # | Red Flag              | What to Look For                                             |
+| - | --------------------- | ------------------------------------------------------------ |
+| 1 | Spoofed sender domain | `paypa1-accounts.com` → "1" instead of "l"                |
+| 2 | Urgency               | "24 hours... permanent suspension"                           |
+| 3 | Generic greeting      | "Dear PayPal User" — not your actual name                   |
+| 4 | Suspicious link URL   | Hover over the link — does the domain match?                |
+| 5 | Reply-To mismatch     | Replies go to a different attacker-controlled domain         |
+| 6 | No digital signature  | Legitimate PayPal emails are cryptographically signed (DKIM) |
 
 ---
 
 ### Sample 2 — CEO Wire Transfer (Business Email Compromise)
 
-| Field | Details |
-|---|---|
-| **Type** | Business Email Compromise (BEC) / CEO Fraud |
-| **Impersonating** | Company CEO |
-| **Attack Goal** | Wire $47,500 to an attacker-controlled account |
-| **Classification** | 🔴 PHISHING — CRITICAL RISK |
+| Field                    | Details                                        |
+| ------------------------ | ---------------------------------------------- |
+| **Type**           | Business Email Compromise (BEC) / CEO Fraud    |
+| **Impersonating**  | Company CEO                                    |
+| **Attack Goal**    | Wire $47,500 to an attacker-controlled account |
+| **Classification** | 🔴 PHISHING — CRITICAL RISK                   |
 
 **The attack in plain English:**
 The attacker researched LinkedIn to identify the company CEO and finance team. They registered a lookalike domain (`corporategmai1.com` instead of `corporategmail.com`) and sent a urgent wire transfer request impersonating the CEO. By adding "I'm in a board meeting and can't be reached by phone" and "This is strictly confidential", the attacker isolated the victim from verifying the request with colleagues or calling their boss.
 
 **Key Red Flags Identified:**
 
-| # | Red Flag | What to Look For |
-|---|---|---|
-| 1 | Lookalike email domain | `gmai1.com` — "1" used instead of "l" |
-| 2 | Urgency + Secrecy | "Today" and "Don't tell colleagues" |
-| 3 | Phone unavailability | "Cannot be reached by phone" — classic isolation tactic |
-| 4 | Offshore bank destination | Wire to Cayman Islands account — irreversible |
-| 5 | No prior communication | Out-of-the-blue request with no context |
+| # | Red Flag                  | What to Look For                                         |
+| - | ------------------------- | -------------------------------------------------------- |
+| 1 | Lookalike email domain    | `gmai1.com` — "1" used instead of "l"                 |
+| 2 | Urgency + Secrecy         | "Today" and "Don't tell colleagues"                      |
+| 3 | Phone unavailability      | "Cannot be reached by phone" — classic isolation tactic |
+| 4 | Offshore bank destination | Wire to Cayman Islands account — irreversible           |
+| 5 | No prior communication    | Out-of-the-blue request with no context                  |
 
 ---
 
 ### Sample 3 — IT Password Reset (Spear Phishing)
 
-| Field | Details |
-|---|---|
-| **Type** | Internal Spear Phishing |
-| **Impersonating** | IT Security Department |
-| **Attack Goal** | Steal corporate credentials via fake password reset page |
-| **Classification** | 🟡 SUSPICIOUS — Verify Before Clicking |
+| Field                    | Details                                                  |
+| ------------------------ | -------------------------------------------------------- |
+| **Type**           | Internal Spear Phishing                                  |
+| **Impersonating**  | IT Security Department                                   |
+| **Attack Goal**    | Steal corporate credentials via fake password reset page |
+| **Classification** | 🟡 SUSPICIOUS — Verify Before Clicking                  |
 
 **The attack in plain English:**
 The attacker crafted a targeted email appearing to come from IT, using professional language and an urgent deadline. The link points to a Firebase-hosted fake page (`web.app`) — not a corporate internal portal. Many employees click because they trust IT communications without checking the link destination.
@@ -134,19 +134,19 @@ The attacker crafted a targeted email appearing to come from IT, using professio
 
 ## 4. Risk Classification Summary
 
-| Sample | Type | Classification |
-|---|:---:|:---:|
-| PayPal Account Suspended | Credential Phishing | 🔴 PHISHING |
+| Sample                    |           Type           |     Classification     |
+| ------------------------- | :-----------------------: | :--------------------: |
+| PayPal Account Suspended  |    Credential Phishing    |      🔴 PHISHING      |
 | CEO Wire Transfer Request | Business Email Compromise | 🔴 PHISHING (Critical) |
-| IT Password Reset Link | Spear Phishing | 🟡 SUSPICIOUS |
+| IT Password Reset Link    |      Spear Phishing      |     🟡 SUSPICIOUS     |
 
 ### Classification Framework
 
-| Label | Meaning |
-|---|---|
-| ✅ SAFE | Verified sender, expected content, no suspicious links |
-| 🟡 SUSPICIOUS | One or more unusual elements — verify before acting |
-| 🔴 PHISHING | Multiple clear indicators — do not click, report immediately |
+| Label         | Meaning                                                       |
+| ------------- | ------------------------------------------------------------- |
+| ✅ SAFE       | Verified sender, expected content, no suspicious links        |
+| 🟡 SUSPICIOUS | One or more unusual elements — verify before acting          |
+| 🔴 PHISHING   | Multiple clear indicators — do not click, report immediately |
 
 ---
 
@@ -164,14 +164,14 @@ The attacker crafted a targeted email appearing to come from IT, using professio
 
 ### Most Common Phishing Techniques
 
-| Technique | How It Works |
-|---|---|
-| Typosquatting | Registers domain nearly identical to real one (paypa**1** vs paypa**l**) |
-| Email Spoofing | Forges the "From" field to look like a trusted sender |
-| Urgency/Fear | Creates time pressure to prevent careful thinking |
-| Authority Abuse | Impersonates CEO, IT, bank, or government |
-| Link Obfuscation | Hides malicious URL behind "Click Here" button text |
-| Look-alike Pages | Creates pixel-perfect copy of login pages |
+| Technique        | How It Works                                                                         |
+| ---------------- | ------------------------------------------------------------------------------------ |
+| Typosquatting    | Registers domain nearly identical to real one (paypa**1** vs paypa**l**) |
+| Email Spoofing   | Forges the "From" field to look like a trusted sender                                |
+| Urgency/Fear     | Creates time pressure to prevent careful thinking                                    |
+| Authority Abuse  | Impersonates CEO, IT, bank, or government                                            |
+| Link Obfuscation | Hides malicious URL behind "Click Here" button text                                  |
+| Look-alike Pages | Creates pixel-perfect copy of login pages                                            |
 
 ---
 
@@ -186,27 +186,27 @@ The attacker crafted a targeted email appearing to come from IT, using professio
 
 ### ✅ Recognizing Warning Signs
 
-| Warning Sign | Example |
-|---|---|
-| Urgency / Threats | "Your account will be closed in 24 hours" |
-| Generic greeting | "Dear User", "Dear Customer" |
-| Suspicious sender | `support@amaz0n-help.com` |
-| Unusual request | CEO asking for a wire transfer by email |
-| Suspicious attachment | `.exe`, `.zip`, `.docm` files |
-| Mismatched URL | Link says "paypal.com" but leads to "paypa1.net" |
+| Warning Sign          | Example                                          |
+| --------------------- | ------------------------------------------------ |
+| Urgency / Threats     | "Your account will be closed in 24 hours"        |
+| Generic greeting      | "Dear User", "Dear Customer"                     |
+| Suspicious sender     | `support@amaz0n-help.com`                      |
+| Unusual request       | CEO asking for a wire transfer by email          |
+| Suspicious attachment | `.exe`, `.zip`, `.docm` files              |
+| Mismatched URL        | Link says "paypal.com" but leads to "paypa1.net" |
 
 ---
 
 ## 7. Do's and Don'ts for Employees
 
-| ✅ DO | ❌ DON'T |
-|---|---|
-| Verify unexpected requests via a separate channel (call) | Don't click links in urgent, unexpected emails |
-| Check the sender's full email address, not just the name | Don't trust display names alone |
-| Report suspicious emails to IT / Security team | Don't forward or reply to phishing emails |
-| Use MFA (Multi-Factor Authentication) on all accounts | Don't enter credentials without verifying the URL |
-| Keep your devices and browsers updated | Don't open unexpected attachments |
-| Hover over links before clicking | Don't wire money based on email instructions alone |
+| ✅ DO                                                    | ❌ DON'T                                           |
+| -------------------------------------------------------- | -------------------------------------------------- |
+| Verify unexpected requests via a separate channel (call) | Don't click links in urgent, unexpected emails     |
+| Check the sender's full email address, not just the name | Don't trust display names alone                    |
+| Report suspicious emails to IT / Security team           | Don't forward or reply to phishing emails          |
+| Use MFA (Multi-Factor Authentication) on all accounts    | Don't enter credentials without verifying the URL  |
+| Keep your devices and browsers updated                   | Don't open unexpected attachments                  |
+| Hover over links before clicking                         | Don't wire money based on email instructions alone |
 
 ---
 

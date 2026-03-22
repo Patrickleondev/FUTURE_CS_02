@@ -1,6 +1,6 @@
 # FUTURE_CS_02 — Phishing Email Detection & Awareness System
 
-## 🔍 About This Task
+## About This Task
 
 This repository is the submission for **Task 2** of the **Future Interns Cyber Security Track (2026)**.
 
@@ -8,7 +8,7 @@ This repository is the submission for **Task 2** of the **Future Interns Cyber S
 
 ---
 
-## 🎯 Analysis Approach
+## Analysis Approach
 
 This task was completed by:
 
@@ -20,22 +20,22 @@ This task was completed by:
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
-| Tool | Purpose |
-|---|---|
-| Google Apps Header Analyzer | Parsing and analyzing email headers |
-| MXToolbox | DKIM/SPF/DMARC record verification |
-| Browser DevTools | Inspecting links and URL structures safely |
-| Google Docs / Markdown | Documentation and report writing |
+| Tool                        | Purpose                                    |
+| --------------------------- | ------------------------------------------ |
+| Google Apps Header Analyzer | Parsing and analyzing email headers        |
+| MXToolbox                   | DKIM/SPF/DMARC record verification         |
+| Browser DevTools            | Inspecting links and URL structures safely |
+| Google Docs / Markdown      | Documentation and report writing           |
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 FUTURE_CS_02/
-├── Phishing_Detection_Report.md    # ✅ Full professional awareness report
+├── Phishing_Detection_Report.md    # Full professional awareness report
 ├── README.md                       # This file
 └── phishing_samples/
     └── phishing_email_samples.md   # Raw phishing email samples with header analysis
@@ -43,10 +43,10 @@ FUTURE_CS_02/
 
 ---
 
-## 📄 Key Deliverables
+## Key Deliverables
 
-- [📊 **Phishing Detection & Awareness Report**](Phishing_Detection_Report.md) — Full report covering 3 analyzed phishing scenarios, risk classification, attack lifecycle, and employee prevention guidelines.
-- [📧 **Raw Email Samples & Header Analysis**](phishing_samples/phishing_email_samples.md) — Detailed breakdown of each phishing email's headers and red flags.
+- [**Phishing Detection & Awareness Report**](Phishing_Detection_Report.md) — Full report covering 3 analyzed phishing scenarios, risk classification, attack lifecycle, and employee prevention guidelines.
+- [**Raw Email Samples & Header Analysis**](phishing_samples/phishing_email_samples.md) — Detailed breakdown of each phishing email's headers and red flags.
 
 ---
 
