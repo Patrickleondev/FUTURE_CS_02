@@ -1,53 +1,28 @@
-# FUTURE_CS_02 — Phishing Email Detection & Awareness System
+# FUTURE_CS_02 - Phishing Email Detection & Awareness System
 
-## About This Task
+## Project Overview
 
-This repository is the submission for **Task 2** of the **Future Interns Cyber Security Track (2026)**.
+This repository contains the deliverables for Task 2 of the Future Interns Cyber Security Track (2026).
+The objective was to act as a Security Analyst to dissect real-world phishing email scenarios, identify their attack mechanics, classify their risk levels, and translate these findings into an actionable corporate awareness report designed to educate non-technical employees.
 
-**Task:** Analyze real phishing email samples, identify phishing indicators, classify email risk, and produce a professional security awareness report for business users.
+## Analysis Scope & Scenarios
 
----
+The analysis focused strictly on email header anomalies, domain impersonation (typosquatting), social engineering tactics, and payload delivery mechanisms. Three distinct phishing campaigns were analyzed:
 
-## Analysis Approach
+1. Scenario A: Credential Harvesting. Impersonation of PayPal to steal consumer financial login details.
+2. Scenario B: Business Email Compromise (BEC) / CEO Fraud. Highly targeted executive impersonation designed to authorize fraudulent offshore wire transfers.
+3. Scenario C: Internal Spear Phishing. Impersonation of the corporate IT department to capture employee credentials via a fake password reset portal.
 
-This task was completed by:
+## Methodology
 
-1. Collecting representative phishing email samples (credential theft, BEC fraud, spear phishing)
-2. Analyzing email headers to identify spoofed senders, mismatched Reply-To fields, and suspicious originating IPs
-3. Inspecting links and domains for typosquatting and obfuscation techniques
-4. Classifying each email's risk level (Safe / Suspicious / Phishing)
-5. Documenting findings and creating employee-facing prevention guidelines
+Each email sample was subjected to the following analytical process:
 
----
+- Sender Verification: Analyzing SMTP headers, Reply-To mismatches, and domain variations.
+- Intent Analysis: Identifying the psychological triggers used (urgency, fear, authority).
+- Payload Inspection: Safely reviewing the destination URLs without interaction.
+- Risk Classification: Assigning a severity rating (Safe, Suspicious, Phishing) based on the accumulated indicators of compromise.
 
-## Tools Used
+## Deliverables
 
-| Tool                        | Purpose                                    |
-| --------------------------- | ------------------------------------------ |
-| Google Apps Header Analyzer | Parsing and analyzing email headers        |
-| MXToolbox                   | DKIM/SPF/DMARC record verification         |
-| Browser DevTools            | Inspecting links and URL structures safely |
-| Google Docs / Markdown      | Documentation and report writing           |
-
----
-
-## Repository Structure
-
-```
-FUTURE_CS_02/
-├── Phishing_Detection_Report.md    # Full professional awareness report
-├── README.md                       # This file
-└── phishing_samples/
-    └── phishing_email_samples.md   # Raw phishing email samples with header analysis
-```
-
----
-
-## Key Deliverables
-
-- [**Phishing Detection & Awareness Report**](Phishing_Detection_Report.md) — Full report covering 3 analyzed phishing scenarios, risk classification, attack lifecycle, and employee prevention guidelines.
-- [**Raw Email Samples & Header Analysis**](phishing_samples/phishing_email_samples.md) — Detailed breakdown of each phishing email's headers and red flags.
-
----
-
-*Submitted by: Patrick Leon | Future Interns Cyber Security Program 2026*
+- The comprehensive, corporate-ready Phishing Detection & Awareness Report (`.pdf` or `.docx`), including the "Do's and Don'ts" employee guidelines.
+- `phishing_samples/`: Directory containing the raw email metadata, message bodies, and identified indicators for each analyzed campaign.
