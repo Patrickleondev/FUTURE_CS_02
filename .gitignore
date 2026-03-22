@@ -1,0 +1,10 @@
+# Ignorer tous les fichiers par défaut
+*
+
+# Exceptions : Fichiers et dossiers à pousser (Livrables demandés)
+!.gitignore
+!README.md
+!*Report*.pdf
+!*Report*.docx
+!phishing_samples/
+!phishing_samples/**
